@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This will help to keep tab of your expense's">
+    <link rel="stylesheet" href="expense.css">
+    <title>Expense's</title>
+</head>
+<body>
+    <div>
+        <h1 style="color: gray; text-align: center;">Expense's</h1>
+        <div style="border: 1px solid green; border-radius: 1rem; margin-bottom: 1rem;">
+            <h3 style="color: green; text-align: center;">Add A New Expense</h3>
+            <div style="display: block;">
+                <div class="exp-div">
+                    <label for="name-exp" style="color: green;">Name:</label>
+                    <input type="text" name="" placeholder="Name of the expense?" id="name-exp" required>
+                </div>
+                <div class="exp-div">
+                    <label for="date-exp" style="color: green;">Date:</label>
+                    <input type="date" name="" id="date-exp" required>
+                </div>
+                <div class="exp-div">
+                    <label for="amt-exp" style="color: green;">Amount:</label>
+                    <input type="number" name="" id="amt-exp" required>
+                </div>
+            </div>
+        
+            <button id="add-btn">Add Expense</button>
+        </div>
+
+        <div>
+            <table id="table-list">
+                <tr>
+                    <th>Name</th>
+                    <th>mm/dd/yy</th>
+                    <th>Amount</th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="expense.js"></script>
+</body>
+</html>

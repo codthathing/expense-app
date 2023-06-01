@@ -1,0 +1,126 @@
+.exp-div {
+    display: flex;
+    margin: 0.5rem;
+}
+
+.exp-div label {
+    margin-right: 0.5rem;
+}
+
+.exp-div input {
+    width: 100%;
+    border: 2px solid black;
+    outline: none;
+}
+
+#add-btn {
+    background-color: green;
+    color: white;
+    border: hidden;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.5rem;
+    outline: none;
+}
+
+table {
+    border: 1px solid rgb(199, 198, 198);
+    width: 100%;
+}
+
+table th {
+    background-color: rgb(228, 228, 228);
+}
+table td {
+    word-break: keep-all;
+    hyphens: none;
+}
+
+.del-exp {
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+    border: 1px sollid black;
+    text-align: center;
+    outline: none;
+}
+
+@media all and (max-width: 767px) {
+    .exp-div label {
+        font-size: 1.5rem;
+    }
+
+    .exp-div input {
+        font-size: 1.1rem;
+        padding: 0.2rem;
+    }
+
+    #add-btn {
+        font-size: 1.1rem;
+    }
+
+    table{
+        font-size: 1.2rem;
+    }
+
+    table td {
+        padding: 0.2rem;
+    }
+
+    .del-exp {
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .exp-div label {
+        font-size: 2rem;
+    }
+
+    .exp-div input {
+        font-size: 2rem;
+        padding: 0.3rem;
+    }
+
+    #add-btn {
+        font-size: 2rem;
+    }
+
+    table {
+        font-size: 2rem;
+    }
+
+    table td {
+        padding: 0.3rem;
+    }
+
+    .del-exp {
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .exp-div label {
+        font-size: 1.5rem;
+    }
+
+    .exp-div input {
+        font-size: 1.1rem;
+        padding: 0.2rem;
+    }
+
+    #add-btn {
+        font-size: 1.1rem;
+    }
+
+    table{
+        font-size: 1.2rem;
+    }
+
+    table td {
+        padding: 0.2rem;
+    }
+
+    .del-exp {
+        font-size: 1.5rem;
+    }
+}
